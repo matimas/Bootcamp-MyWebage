@@ -36,15 +36,13 @@
 	position: absolute;
 	width: 450px;
 	height: 400px;
-	top: 20%;
-	left: 35%;
+	top: 25%;
+	left: 40%;
 	line-height: 5;
 	border: 10px solid lightgray;
-	border-radius: 50%;
 	border-top-color: rgba(247, 39, 39, 0.809);
 	animation: megic 5.4s cubic-bezier(0, 0.2, 0.8, 1) infinite;
 }
-
 @keyframes megic {
 	0%,
 	100% {
@@ -67,8 +65,8 @@
 		position: absolute;
 		width: 150px;
 		height: 100px;
-		top: 20%;
-		left: 35%;
+		top: 15%;
+		left: 30%;
 		line-height: 2;
 		border: 10px solid lightgray;
 		border-radius: 50%;
