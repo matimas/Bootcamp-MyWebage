@@ -26,6 +26,7 @@ ul.about-content {
 .about-right {
 	flex-basis: 60%;
 	font-size: 22px;
+	overflow: scroll;
 }
 .banner-area p {
 	max-width: 800px;
