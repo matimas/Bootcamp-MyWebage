@@ -1,0 +1,27 @@
+#contact {
+	background: rgb(116, 81, 81);
+}
+ul.contact-content {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.contact-content li {
+	padding: 0 30px;
+	flex-basis: 15%;
+	text-align: center;
+}
+.contact-content li a {
+	font-size: 50px;
+	color: crimson;
+	margin-bottom: 25px;
+}
+.contact-content li a {
+	font-size: 25px;
+}
