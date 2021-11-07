@@ -12,7 +12,8 @@ ul.skils-content {
 	justify-content: center;
 }
 .skils-content li {
-	padding: 0 20px;
+	height: 200px;
+	/* padding: 0 5px; */
 	flex-basis: 14.028%;
 	text-align: center;
 	color: crimson;
@@ -20,7 +21,7 @@ ul.skils-content {
 .skils-area i {
 	font-size: 50px;
 	color: crimson;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 }
 .skils-area li h4 {
 	font-size: 20px;
@@ -33,12 +34,24 @@ ul.skils-content {
 @media (max-width: 1000px) {
 	.skils-content li {
 		flex-basis: 100%;
-		margin-bottom: 65px;
 	}
 	.skils-content li:last-child {
 		margin-bottom: 0;
 	}
 	.skils-content li h3 {
 		padding: 0;
+	}
+}
+@media (max-width: 700px) {
+	.skils-content li {
+		flex-basis: 100%;
+		margin-bottom: 0;
+	}
+	.skils-content li:last-child {
+		margin-bottom: 0;
+	}
+	.skils-content li h3 {
+		padding: 0;
+		margin: 2px;
 	}
 }
