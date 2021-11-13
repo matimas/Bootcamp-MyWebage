@@ -3,10 +3,6 @@ header {
 	top: 0;
 	left: 0;
 	z-index: 10;
-	display: -webkit-flex;
-	display: -moz-flexbox;
-	display: -ms-flexbox;
-	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -28,10 +24,6 @@ header h2 {
 	position: fixed;
 }
 header nav {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flexbox;
-	display: -o-flex;
 	display: flex;
 	margin-left: 850px;
 }
