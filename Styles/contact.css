@@ -2,11 +2,7 @@
 	background: rgb(116, 81, 81);
 }
 ul.contact-content {
-	width: 100%;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
+	width: 100%;;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
